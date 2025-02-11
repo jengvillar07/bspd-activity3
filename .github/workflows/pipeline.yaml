@@ -24,8 +24,8 @@ jobs:
 
         - name: install dependencies
           run: |
-           pit install flask
-           pit install pytest
+           pip install flask
+           pip install pytest
 
         - name: run test
           run:
