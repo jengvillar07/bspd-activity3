@@ -9,7 +9,7 @@ def client():
 
 def test_greetme(client):
     response = client.get('/')
-    assert response.data==b'Welcome to flask homes'
+    assert response.data==b'Welcome to flask home'
     assert response.status_code==200
 
 def test_page1(client):
